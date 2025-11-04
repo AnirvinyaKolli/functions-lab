@@ -21,8 +21,12 @@ int main(){
     int faveNum= getFavoriteNumber(); 
     cout << "Your favorite number is "<<faveNum << '.' << '\n'; 
 
+    cout << "Enter the number of values" << '\n'; 
+    int numberOfValues; 
+    cin >> numberOfValues; 
+    
     vector<float> inputNums; 
-    for (int i = 0; i < 10; i ++)
+    for (int i = 0; i < numberOfValues; i ++)
     {
         cout << "Enter number" << '\n'; 
         int inputNum; 
